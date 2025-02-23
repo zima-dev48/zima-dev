@@ -37,10 +37,10 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🎧 Listening to Spotify", "🎮 Playing VALORANT"];
+const statusMessages = ["🧸 /zima", "🧸 /zima"];
 const statusTypes = [ 'dnd', 'idle'];
-let currentStatusIndex = 0;
-let currentTypeIndex = 0;
+let currentStatusIndex = dnd;
+let currentTypeIndex = dnd;
 
 async function login() {
   try {
