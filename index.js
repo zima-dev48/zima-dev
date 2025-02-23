@@ -39,8 +39,8 @@ app.listen(port, () => {
 
 const statusMessages = ["🧸 /zima", "🧸 /zima"];
 const statusTypes = [ 'dnd', 'idle'];
-let currentStatusIndex = dnd;
-let currentTypeIndex = dnd;
+let currentStatusIndex = 0;
+let currentTypeIndex = 0;
 
 async function login() {
   try {
